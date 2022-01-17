@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{      
+    background-image: linear-gradient(#4e69a2,#3b5998); 
+    width: 84.2em;
+    height: 81px;
+    border: 1px solid #133783;
+}
+.logo{
+    /* border: 3px solid; */
+    width: 30em;
+    height: 75px;
+    float: left;    
+    padding-left: 180px;
+    line-height: 100px;
+}
+.logo a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fcfcfd;
+    text-decoration: none;
+}
+.log{
+    /* border: 3px solid yellow; */
+    width: 24em;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 75px;
+    float: left;
+    margin-left: 100px;
+    padding-left: 28px;
+}
+.log .email{
+    width: 12em;
+    float: left;
+    padding-top: 13px;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.log .email input{
+    width: 145px;
+    height: 22px;
+    margin-top: 5px;
+    padding-left: 3px;
+    border: 0.2px solid #1d2a5b;
+}
+.log .password{
+    width: 12em;
+    float: left;
+    padding-top: 13px;
+    padding-left: 20.3px;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.log .password input{
+    width: 145px;
+    height: 22px;
+    margin-top: 5px;
+    padding-left: 3px;
+    border: 0.2px solid #1d2a5b;
+}
+.password a{
+    color: #9cb4d8;
+    line-height: 22px;
+    text-decoration: none;
+}
+.password a:hover{
+    text-decoration: underline;
+}
+.login{
+    width: 3em;
+    float: left;
+    padding-top: 33px;
+    padding-left: 20px;
+}
+.login button{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 48px;
+    height: 24px;
+    color: white;
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 12px;
+    margin-bottom: 15px;    
+    border-radius: 2px;
+}
+.login button:hover{
+    background-color: #3b5998;
+}
+.content{
+    /* border: 2px solid red; */
+    width: 70m;
+    height: 37em;
+    background-image: linear-gradient(#ffffff,#d3d8e8); 
+    margin-top: 1px;
+    padding-left: 180px;
+}
+.content .left{
+    /* border: 2px solid green;     */
+    width: 30em;
+    height: 5em;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    color: #0e385f;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;   
+}
+
+.content .right{
+    /* border: 2px solid; */
+    font-family: Arial, Helvetica, sans-serif;
+    width: 28em;
+    height: 40em;
+    float: left;
+    margin-top: 5px;
+    margin-left: 75px;
+    padding-top: 15px;
+}
+.content .right h1{
+    color: #333333;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.content .right p{
+    color: #181818;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#firstname{
+    width: 185px;
+    height: 36px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #bdc7d8;
+    border-radius: 6px;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#surname{
+    width: 185px;
+    height: 36px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #bdc7d8;
+    border-radius: 6px;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+#mobile{
+    width: 393px;
+    height: 36px;
+    float: left;
+    margin-bottom: 10px;
+    border: 1px solid #bdc7d8;
+    border-radius: 6px;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#password{
+    width: 393px;
+    height: 36px;
+    float: left;
+    margin-bottom: 20px;
+    border: 1px solid #bdc7d8;
+    border-radius: 6px;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.birthday{
+    margin-bottom: 10px;
+}
+.birthday #bday{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #90949c;
+    padding-bottom: 5px;
+}
+.birthday #date{
+    width: 60px;
+    height: 30px;
+    border: 1px solid #ccd0d5;
+    padding-left: 5px;
+}
+.birthday #month{
+    width: 70px;
+    height: 30px;
+    border: 1px solid #ccd0d5;
+    margin-left: -3px;
+    padding-left: 5px;
+}
+.birthday #year{
+    width: 70px;
+    height: 30px;
+    border: 1px solid #ccd0d5;
+    margin-left: -3px;
+    padding-left: 5px;
+}
+.gender{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;    
+    
+}
+.gender h4{
+    font-size: 18px;
+    font-weight: bold;
+    color: #90949c;
+    padding-bottom: 10px;
+}
+ul{
+    margin-left: 10px;
+    font-size: 18px;
+    color: #1d2129;
+}
+.policy{
+    width: 300px;
+    font-size: 11px;
+    color: #777777;
+    padding-bottom: 20px;
+    line-height: 14px;
+}
+.policy a{
+    font-size: 11.2px;
+    text-decoration: none;
+    color: #385898;
+}
+.policy a:hover{
+    text-decoration: underline;
+}
+.signup input{
+    width: 195px;
+    height: 40px;
+    border: 1px solid #3b6e22;
+    border-radius: 4px;
+    /* background-color: #578843; */
+    background-image: linear-gradient(#67ae55,#578843); 
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #ffffff;
+}
+.signup input:hover{
+    background-image: linear-gradient(#6aad59,#4b723c); 
+    /* background-color: #2e6321; */
+}
+hr{
+    color: #ffffff;
+    width: 400px;
+    margin-top: 25px;
+}
+.celebrity{
+    width: 350px;
+    margin-top: 17px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #606770;
+}
+.celebrity a{
+    text-decoration: none;
+    color: #385898;
+}
+.celebrity a:hover{
+    text-decoration: underline;
+}
